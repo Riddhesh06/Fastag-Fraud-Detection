@@ -4,7 +4,7 @@ from App.model.config import THRESHOLD, FEATURE_COLUMNS
 
 model = joblib.load("App/model/logistic_regression_model.pkl")
 scaler = joblib.load("App/model/scaler.pkl")
-FEATURE_COLUMNS = joblib.load("App/model/feature_columns.pkl")
+#FEATURE_COLUMNS = joblib.load("App/model/feature_columns.pkl")
 
 
 def predict_fraud(data: dict):
